@@ -1,0 +1,29 @@
+{
+    "name": "luannsr12/officeme",
+    "description": "Project manager telegram bots",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OfficeMe\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luan Alves"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4",
+        "illuminate/database": "^11.0",
+        "illuminate/view": "^11.0",
+        "luannsr12/apiwpp": "^1.0",
+        "illuminate/support": "^11.1",
+        "illuminate/pagination": "^11.1",
+        "nesbot/carbon": "^3.3",
+        "yajra/laravel-datatables-oracle": "^11.1",
+        "longman/telegram-bot": "^0.82.0",
+        "mercadopago/dx-php": "3.0.5",
+        "ramsey/uuid": "^4.7"
+    }
+}
